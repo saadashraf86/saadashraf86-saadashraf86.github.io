@@ -284,7 +284,7 @@ img {
   padding-bottom: 1px; }
   @media (min-width: 661px) {
     .site-main {
-		
+
   padding-top: 64px;
   min-height: calc(100vh - 64px);
       margin-left: 64px;
@@ -525,6 +525,20 @@ img {
     display: block;
     width: 100%; }
 
+.row
+{
+    display: table;
+    width: 100%; /*Optional*/
+    table-layout: fixed; /*Optional*/
+    border-spacing: 5px; /*Optional*/
+}
+.column
+{
+    display: table-cell;
+    width: 100px;
+
+}
+
 .category {
   letter-spacing: 0.1em;
   max-width: 600px; }
@@ -648,7 +662,7 @@ img {
 }
 	@media (min-width: 661px) {
 		.card {
-			width: 40%;
+			width: 90%;
 		}
 	}
 }
@@ -827,11 +841,11 @@ p + .wp-caption {
   animation: slideInBottom 0.5s;
   animation-delay: 0.3s;
   animation-fill-mode: both; }
-  
+
 .card {
   animation: fadeIn 1s;
   animation-delay: 0.5s;
-  animation-fill-mode: both; 
+  animation-fill-mode: both;
  }
 
 @keyframes slideInLeft {
